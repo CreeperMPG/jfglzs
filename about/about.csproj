@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23B9F6C2-A449-4D2B-87EC-34A2645EFD8F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>about</RootNamespace>
+    <AssemblyName>about</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>about.ico</ApplicationIcon>
+    <StartupObject>about.Internal.ReponseProduct</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-{F52B8B0F-A3AD-4C85-83B2-3C09A34AD673}.cs" />
+    <Compile Include="ILLicenseModule.cs" />
+    <Compile Include="Internal\EventProduct.cs" />
+    <Compile Include="Internal\InvocationProduct.cs" />
+    <Compile Include="Internal\IssuerProduct.cs" />
+    <Compile Include="Internal\ItemProduct.cs" />
+    <Compile Include="Internal\ProductProduct.cs" />
+    <Compile Include="Internal\PropertyProduct.cs" />
+    <Compile Include="Internal\RegProduct.cs" />
+    <Compile Include="Internal\ReponseProduct.cs" />
+    <Compile Include="Internal\WrapperProduct.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowsApplication1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsApplication1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsApplication1\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowsApplication1\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsApplication1\My\MySettings.cs" />
+    <Compile Include="WindowsApplication1\My\MySettings.Designer.cs">
+      <DependentUpon>MySettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WindowsApplication1\My\MySettingsProperty.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="about.g.resources" />
+    <EmbeddedResource Include="WindowsApplication1\Form1.resources" />
+    <EmbeddedResource Include="WindowsApplication1\Form3.resources" />
+    <EmbeddedResource Include="WindowsApplication1\Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="WindowsApplication1\My\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
