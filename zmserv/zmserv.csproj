@@ -74,6 +74,22 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
     </None>
+	  <None Include="-Module-{398D3740-91C3-4A01-97DD-3CE3D4837DD2}.cs.md" />
+	  <None Include="ILLicenseModule.cs.md" />
+	  <None Include="Internal\ClassReg.cs.md" />
+	  <None Include="Internal\ComparatorReg.cs.md" />
+	  <None Include="Internal\CustomerReg.cs.md" />
+	  <None Include="Internal\DicReg.cs.md" />
+	  <None Include="Internal\DispatcherReg.cs.md" />
+	  <None Include="Internal\ListReg.cs.md" />
+	  <None Include="Internal\RegReg.cs.md" />
+	  <None Include="Internal\ValueReg.cs.md" />
+	  <None Include="My\MySettings.cs.md" />
+	  <None Include="My\MySettings.Designer.cs.md" />
+	  <None Include="My\MySettingsProperty.cs.md" />
+	  <None Include="ProcessMonitorService.cs.md" />
+	  <None Include="Properties\AssemblyInfo.cs.md" />
+	  <None Include="行为分析.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

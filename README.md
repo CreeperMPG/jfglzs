@@ -2,6 +2,8 @@
 
 机房管理助手 13.1 版本源代码 C# 反编译版本，不能直接运行，使用 DeepSeek V4 Flash 进行反混淆。https://www.jfglzs.com/
 
+共消耗 **104,487,092 Tokens**（¥19.22）
+
 以下内容为 AI 生成：
 
 > 样本：`~\source\repos\VIRUS\jfglzs13\`（脱壳后 `*_Slayed.exe`）

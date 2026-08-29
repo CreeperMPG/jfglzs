@@ -108,6 +108,31 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="-Module-{BE21FD9F-91BB-404C-9AB1-5A7D7BDE8630}.cs.md" />
+    <None Include="bianhao.cs.md" />
+    <None Include="bianhao.Designer.cs.md" />
+    <None Include="Form1.cs.md" />
+    <None Include="Form1.Designer.cs.md" />
+    <None Include="Form2.cs.md" />
+    <None Include="Form2.Designer.cs.md" />
+    <None Include="Form3.cs.md" />
+    <None Include="Form3.Designer.cs.md" />
+    <None Include="Form4.cs.md" />
+    <None Include="Form4.Designer.cs.md" />
+    <None Include="gypZRX1vuWc3aeye0R\Internal\Account.cs.md" />
+    <None Include="gypZRX1vuWc3aeye0R\Internal\Broadcaster.cs.md" />
+    <None Include="gypZRX1vuWc3aeye0R\Internal\Callback.cs.md" />
+    <None Include="gypZRX1vuWc3aeye0R\Internal\Initializer.cs.md" />
+    <None Include="gypZRX1vuWc3aeye0R\Internal\Object.cs.md" />
+    <None Include="gypZRX1vuWc3aeye0R\Internal\Param.cs.md" />
+    <None Include="gypZRX1vuWc3aeye0R\Internal\Schema.cs.md" />
+    <None Include="gypZRX1vuWc3aeye0R\Internal\Status.cs.md" />
+    <None Include="ILLicenseModule.cs.md" />
+    <None Include="My\MySettings.cs.md" />
+    <None Include="My\MySettings.Designer.cs.md" />
+    <None Include="My\MySettingsProperty.cs.md" />
+    <None Include="Properties\AssemblyInfo.cs.md" />
+    <None Include="行为分析.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

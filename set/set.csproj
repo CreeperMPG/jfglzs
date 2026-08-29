@@ -95,6 +95,28 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
     </None>
+	  <None Include="-Module-{19DC0348-631F-485F-9781-F5CB825C3EDD}.cs.md" />
+	  <None Include="Form1.cs.md" />
+	  <None Include="Form1.Designer.cs.md" />
+	  <None Include="Form3.cs.md" />
+	  <None Include="Form3.Designer.cs.md" />
+	  <None Include="ILLicenseModule.cs.md" />
+	  <None Include="Internal\ConfigurationMock.cs.md" />
+	  <None Include="Internal\CreatorMock.cs.md" />
+	  <None Include="Internal\Descriptor.cs.md" />
+	  <None Include="Internal\DicMock.cs.md" />
+	  <None Include="Internal\ExceptionMock.cs.md" />
+	  <None Include="Internal\HelperMock.cs.md" />
+	  <None Include="Internal\Reader.cs.md" />
+	  <None Include="Internal\TestMock.cs.md" />
+	  <None Include="Internal\Watcher.cs.md" />
+	  <None Include="load.cs.md" />
+	  <None Include="load.Designer.cs.md" />
+	  <None Include="My\MySettings.cs.md" />
+	  <None Include="My\MySettings.Designer.cs.md" />
+	  <None Include="My\MySettingsProperty.cs.md" />
+	  <None Include="Properties\AssemblyInfo.cs.md" />
+	  <None Include="行为分析.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

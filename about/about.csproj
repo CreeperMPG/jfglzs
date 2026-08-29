@@ -82,11 +82,31 @@
     <EmbeddedResource Include="WindowsApplication1\Resources.resources" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="-Module-{F52B8B0F-A3AD-4C85-83B2-3C09A34AD673}.cs.md" />
     <None Include="app.manifest" />
+    <None Include="ILLicenseModule.cs.md" />
+    <None Include="Internal\EventProduct.cs.md" />
+    <None Include="Internal\InvocationProduct.cs.md" />
+    <None Include="Internal\IssuerProduct.cs.md" />
+    <None Include="Internal\ItemProduct.cs.md" />
+    <None Include="Internal\ProductProduct.cs.md" />
+    <None Include="Internal\PropertyProduct.cs.md" />
+    <None Include="Internal\RegProduct.cs.md" />
+    <None Include="Internal\ReponseProduct.cs.md" />
+    <None Include="Internal\WrapperProduct.cs.md" />
+    <None Include="Properties\AssemblyInfo.cs.md" />
+    <None Include="WindowsApplication1\Form1.cs.md" />
+    <None Include="WindowsApplication1\Form1.Designer.cs.md" />
+    <None Include="WindowsApplication1\Form3.cs.md" />
+    <None Include="WindowsApplication1\Form3.Designer.cs.md" />
+    <None Include="WindowsApplication1\My\MySettings.cs.md" />
+    <None Include="WindowsApplication1\My\MySettings.Designer.cs.md" />
     <None Include="WindowsApplication1\My\MySettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="WindowsApplication1\My\MySettingsProperty.cs.md" />
+    <None Include="行为分析.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
