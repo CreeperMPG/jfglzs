@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F226C0D7-CE28-476B-9C84-6E8C5F8AC28E}</ProjectGuid>
+    <ProjectGuid>{D6B49126-0851-461D-A1F8-6BFDDDBBE8FB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>set</RootNamespace>
     <AssemblyName>set</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>set.ico</ApplicationIcon>
     <StartupObject>set.Internal.InfoAttr</StartupObject>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -57,21 +56,9 @@
     <Compile Include="Internal\ProducerCandidate.cs" />
     <Compile Include="Internal\TokenAttr.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WindowsApplication1\Form1.Designer.cs">
-      <DependentUpon>Form1.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="WindowsApplication1\Form3.Designer.cs">
-      <DependentUpon>Form3.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="WindowsApplication1\load.Designer.cs">
-      <DependentUpon>load.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <Compile Include="WindowsApplication1\Form1.cs" />
+    <Compile Include="WindowsApplication1\Form3.cs" />
+    <Compile Include="WindowsApplication1\load.cs" />
     <Compile Include="WindowsApplication1\My\MySettings.Designer.cs">
       <DependentUpon>MySettings.settings</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -80,23 +67,13 @@
     <Compile Include="WindowsApplication1\My\MySettingsProperty.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="g.resx" />
-    <EmbeddedResource Include="WindowsApplication1\Form1.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Form1.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WindowsApplication1\Form3.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Form3.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WindowsApplication1\load.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>load.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WindowsApplication1\Resources.resx" />
+    <EmbeddedResource Include="set.g.resources" />
+    <EmbeddedResource Include="WindowsApplication1\Form1.resources" />
+    <EmbeddedResource Include="WindowsApplication1\Form3.resources" />
+    <EmbeddedResource Include="WindowsApplication1\load.resources" />
+    <EmbeddedResource Include="WindowsApplication1\Resources.resources" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="app.manifest" />
     <None Include="WindowsApplication1\My\MySettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
