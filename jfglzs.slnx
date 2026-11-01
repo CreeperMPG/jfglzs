@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="about/about.csproj" />
+  <Project Path="jfglzsn/jfglzsn.csproj" />
+  <Project Path="przs/przs.csproj" />
+  <Project Path="set/set.csproj" />
+  <Project Path="uninstall/uninstall.csproj" />
+  <Project Path="zmserv/zmserv.csproj" />
+</Solution>
